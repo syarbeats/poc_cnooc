@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="com.visitek.domino.services.poc" default="CreateJar">
+  <target name="CreateJar" description="Create Jar file">
+        <jar jarfile="com.visitek.domino.services.poc.jar" basedir="bin\com\visitek\domino\services\poc" includes="*.class" />
+  </target>
+</project>
